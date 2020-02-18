@@ -1,17 +1,14 @@
 // モーダル要素の取得
-const modal = document.querySelector('modal');
+const modal = document.getElementById('modal');
 
 // 開くボタン取得
-const modalOpen = document.getElementsByClassName('easyModal');
+const modalOpen = document.getElementById('easyModal');
 
 // 閉じるボタン取得
-const modalClose = document.getElementsByClassName('modalClose');
+const modalClose = document.getElementById('modalClose');
 
 // クリックで開くイベントリスナー
-
-//function clickOpen() {
-//    const clickOpen = document.getElementsByClassName('button');
-//}
+window.addEventListener('click',modalOpen);
 
 // クリックで閉じるイベントリスナー
 
