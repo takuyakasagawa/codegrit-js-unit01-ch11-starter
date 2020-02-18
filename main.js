@@ -8,7 +8,7 @@ const modalOpen = document.getElementById('easyModal');
 const modalClose = document.getElementById('modalClose');
 
 // クリックで開くイベントリスナー
-window.addEventListener('click',modalOpen);
+//modalOpen.addEventListener('click',関数);
 
 // クリックで閉じるイベントリスナー
 
@@ -16,9 +16,9 @@ window.addEventListener('click',modalOpen);
 // モーダル以外の場所クリックのイベントリスナー
 
 
-
 // モーダルオープンの関数
-
+function openClick(){
+}
 
 // モーダルを閉じる関数
 
