@@ -11,7 +11,7 @@ const modalClose = document.getElementById('modalClose');
 modalOpen.addEventListener('click',openClick);
 
 // クリックで閉じるイベントリスナー
-
+modalClose.addEventListener('click',closeClick);
 
 // モーダル以外の場所クリックのイベントリスナー
 
@@ -22,6 +22,8 @@ function openClick(){
 }
 
 // モーダルを閉じる関数
-
+function closeClick(){
+    modal.style.display = 'none';
+}
 
 // モーダル以外がクリックされた時に閉じる関数
