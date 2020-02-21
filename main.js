@@ -18,6 +18,7 @@ modalOpen.addEventListener('click',openClick);
 
 // モーダルオープンの関数
 function openClick(){
+    modal.style.display = 'block';
 }
 
 // モーダルを閉じる関数
