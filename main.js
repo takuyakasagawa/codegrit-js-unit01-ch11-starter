@@ -5,7 +5,7 @@ const modal = document.getElementById('easyModal');
 const modalOpen = document.getElementById('modalOpen');
 
 // 閉じるボタン取得
-const modalClose = document.getElementsByClassName('modalClose');
+const modalClose = document.getElementsByClassName('modalClose')[0];
 
 // クリックで開くイベントリスナー
 modalOpen.addEventListener('click',openClick);
